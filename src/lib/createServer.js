@@ -21,6 +21,8 @@ export default function createServer(options) {
   let server;
 
   const handleCors = (req, res) => {
+    res.setHeader("Referer", "https://missav.ws/");
+    res.setHeader("Origin", "https://missav.ws");
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader(
       "Access-Control-Allow-Methods",
