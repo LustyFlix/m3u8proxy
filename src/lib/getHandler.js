@@ -20,7 +20,7 @@ export default function getHandler(options, proxy) {
     redirectSameOrigin: false,
     requireHeader: null,
     removeHeaders: [],
-    setHeaders: {'Referer':"https//missav.ws/"},
+    setHeaders: {'Referer': "https://missav.ws/"},
     corsMaxAge: 0,
   };
 
